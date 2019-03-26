@@ -86,25 +86,6 @@ main {
     padding: 30px;
 }
 
-.box {
-    height: 200px;
-    width: 200px;
-    box-shadow: none;
-    transition: box-shadow 1s;
-    border: 1px solid #eee;
-}
-
-.box a.active,
-.box a:hover {
-    box-shadow: 0 0 3px #515151;
-}
-
-
-
-
-
-
-
 nav ul {
 	display: flex;
 	margin: 0;
@@ -146,4 +127,31 @@ footer .social ul {
 footer .social li {
     max-width: 45px;
     margin: 10px;
+}
+
+.credits{
+    width: 40%;
+}
+
+
+
+/* footer media queries */
+
+
+@media(max-width: 650px){
+
+    .credits {
+        display: none;
+    }
+
+}
+
+
+@media(max-width: 500px){
+
+
+    .back-to-top{
+        display: none;
+    }
+
 }
