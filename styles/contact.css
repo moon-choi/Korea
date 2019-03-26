@@ -1,0 +1,25 @@
+table,
+table tr,
+table th,
+table td {
+    border: dotted #E6E6FA 1px;
+}
+
+th {
+    padding: 20px;
+}
+
+td {
+    padding: 10px;
+}
+
+table {
+    margin-left: 10px;
+}
+
+main {
+    margin-top: 200px;
+    display: flex;
+	justify-content: space-between;
+    
+}

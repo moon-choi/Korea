@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+/* Resets */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* Image reset */
+img {
+    max-width: 100%;
+    height: auto;
+}
+figure {
+    margin: 0;
+}
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3, nav a {
+    font-family: 'Noto Serif SC', serif;
+}
+
+h1, h2, h3, p, ul {
+    margin-top: 0;
+}
+
+h1, h2, h2 {
+    color: navy
+}
+.main nav a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.4;
+}
+/* end of reset */
+
+
+
+/* Start here */
+
+.site-branding {
+    display: flex;
+}
+
+.logo {
+    width: 200px;
+}
+
+header {
+	position: fixed;
+	top: 0; 
+	left: 0;
+	background-color:#987FA8;
+	width: 100%;
+	z-index: 9999;
+}
+
+.inner-header {
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+main {
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+    margin-top: 170px;
+    margin-bottom: 100px;
+}
+
+.main-nav {
+    margin-top: auto;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    box-shadow: none;
+    transition: box-shadow 1s;
+    border: 1px solid #eee;
+}
+
+.box a.active,
+.box a:hover {
+    box-shadow: 0 0 3px #515151;
+}
+
+
+
+
+
+
+
+nav ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 76px;
+
+}
+
+nav a {
+	display: block;
+	padding: 0 20px;
+	font-size: 1.3em;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-color: #e8e3ff;
+}
+
+footer a {
+    color: darkmagenta; 
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: navy;
+}
+
+footer .social ul {
+    display: flex;
+    list-style: none;
+}
+
+footer .social li {
+    max-width: 45px;
+    margin: 10px;
+}
