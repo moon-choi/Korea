@@ -76,11 +76,11 @@ main {
     margin-bottom: 100px;
 }
 
-.main-nav {
+.nav {
     margin-top: auto;
 }
 
-.main-nav a {
+.nav a {
     text-decoration: none;
     color: white;
     padding: 30px;
