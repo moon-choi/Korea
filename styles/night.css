@@ -38,8 +38,12 @@ figcaption {
 
     }
 
-    article img {
+    article {
+        padding: 30px;
+    }
 
+
+    article img {
         width: 100%;
         height: auto;
     }
