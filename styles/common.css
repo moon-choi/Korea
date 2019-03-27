@@ -160,11 +160,6 @@ footer .social li {
 
 /* vertical menu */
 
-
-
-
-
-
 @media screen and (max-width: 701px) {
 
     .inner-header {
@@ -173,14 +168,15 @@ footer .social li {
     }
 
     .nav a {
-        padding: 10px;
+        padding: 18px;
     }
 
 
     .nav {
         /*display: block;*/
         /*position: relative;*/
-        width: 80%;
+        width: 100%;
+        text-align: left;
     }
 
     .nav ul {
@@ -206,16 +202,19 @@ footer .social li {
     .logo {
         padding-left: 20px;
     }
-
+}
 
 @media screen and (min-width: 700px) {
 
 
     .nav {
-        width: 98%;
+        width: 100%;
         margin-top: -10px;
         /*position: fixed;*/
         z-index: 100;
+        width: 100%;
+        text-align: left;
+
     }
 
 
@@ -234,7 +233,7 @@ footer .social li {
     }
 
     .nav ul {
-        margin-left:50px;
+        margin-left:20px;
     }
 
     .logo {

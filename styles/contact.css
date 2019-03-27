@@ -18,12 +18,16 @@ table {
 }
 
 main {
-    margin-top: 200px;
+    margin-top: 170px;
     display: flex;
 	justify-content: space-between;
     
 }
 
+.map {
+    width: 100%;
+    height: auto;
+}
 
 /* media queries */
 
@@ -36,5 +40,19 @@ main {
     justify-content: space-between;
 
 }
+
+.map {
+    width: 95%;
+    height: auto;
+    margin: 10px; 
+}
+
+
+main table {
+    margin-top: 20px;
+    margin-right: 10px;
+};
+
+
 
 }
